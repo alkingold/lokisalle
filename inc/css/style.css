@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+/*@import url('https://fonts.googleapis.com/css?family=Acme');*/
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+/*@import url('https://fonts.googleapis.com/css?family=Righteous');*/
+@import url('https://fonts.googleapis.com/css?family=Play');
+.conteneur{
+	/*margin-top:70px;*/
+	min-height:80vh;
+}
+table{
+	text-align:center;
+}
+table th{
+	text-align:center;
+	background-color:#428bca;
+	color:rgb(220,220,220)!important;
+}
+.input-group-addon{
+	background-color:#428bca!important;
+	color:rgb(220,220,220)!important;
+}
+table td{
+	vertical-align:middle!important;
+}
+.appercu_salle{
+	width:100px;
+	height:auto;
+}
+.profil-h3{
+	margin-top:0;
+}
+.float-chart{
+	position:relative;
+	float:left;
+}
+#prixOutput{
+	display:inline;
+}
+/*.thumbnail{
+	height:32vw;
+}*/
+h3.loca{
+	margin-top:0px!important;
+}
+.glyphicon-star{
+	color:#d17581;
+}
+iframe{
+	width:100%;
+	height:30vw;
+	max-height:500px;
+}
+div.dropdown{
+	display:inline-block;
+}
+.navbar-inverse{
+	background-color:#34495e!important;
+}
+.navbar-inverse a{
+	color:#ccc!important;
+}
+footer{
+	background-color:#34495e!important;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-bottom:0!important;
+	color:#ccc;
+}
+footer a{
+	color:#ccc;
+}
+footer a:hover{
+	color:white;
+}
+.marginMoins{
+	margin-left:0!important;
+	margin-right:0!important;
+}
+.paddingPlus{
+	padding-right:0!important;
+	padding-left:0!important;
+}
+.dropdown-menu > li > a{
+	color:#2c3e50!important;
+}
+.dropdown-menu > li > a:hover{
+	color:#ccc!important;
+	background:#34495e!important;
+}
+a.navbar-brand{
+	font-family:'Play', serif;
+	font-size:36px;
+	color:#d9534f!important;
+}
+.infos-bas{
+	margin-top:15px;
+}
+
+
+
+@media (min-width: 1200px){
+	iframe{
+		height:385px;
+	}
+	/*.thumbnail{
+		height:370px;
+	}*/
+}
+@media (max-width: 1199.5px){
+	iframe{
+		height:310px;
+	}
+	/*.thumbnail{
+		height:335px;
+	}*/
+}
+@media (max-width: 1000px){
+	iframe{
+		height:310px;
+	}
+	.caption{
+		min-height:145px!important;
+	}
+	/*.thumbnail{
+		min-height:300px;
+	}*/
+}
+@media (max-width: 768px){
+	iframe{
+		height:310px;
+	}
+	/*.caption{
+		height:auto;
+	}
+	.thumbnail{
+		min-height:106vw!important;
+	}*/
+}
